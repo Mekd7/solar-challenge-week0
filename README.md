@@ -1,35 +1,31 @@
-﻿# Solar Challenge Week 0
+# 🌞 Solar Challenge — Week 0
 
-## Project Overview
-This repository is for **Week 0 of the Solar Challenge**. It contains the initial setup, including a Python virtual environment, dependencies, and a GitHub Actions workflow for CI.
+This repository contains the setup for **Week 0** of the Solar Challenge.  
+It includes:
+- A Python virtual environment configuration
+- Dependency installation instructions
+- A GitHub Actions workflow for Continuous Integration (CI)
 
 ---
 
-## Reproduce the Python Environment
+## 📦 Project Setup
 
-Follow these steps to set up the project locally:
+Follow the steps below to set up this project locally.
 
-1. **Clone the repository:**
+### 1. Clone the Repository
+    git clone https://github.com/<your-username>/solar-challenge-week0.git
+    cd solar-challenge-week0
 
-git clone https://github.com/<your-username>/solar-challenge-week0.git
-cd solar-challenge-week0 
+### 2. Create a Virtual Environment
+    python -m venv venv
 
-2.  **Create a Python virtual environment:**
+### 3. Activate the Virtual Environment
 
-python -m venv venv
+    venv\Scripts\activate
+    
+### 4. Install Dependencies
 
-3. **Activate the virtual environment:**
-
-Windows (PowerShell):
-
-venv\Scripts\activate
-
-
-Mac/Linux:
-
-source venv/bin/activate
-
-4. **Install dependencies: **
+    pip install -r requirements.txt
 
 
-pip install -r requirements.txt
+
