@@ -55,7 +55,8 @@ The goal of the EDA is to:
 
 
 The full analysis is available in:
-     /eda/eda_sierra_leone.ipynb
+     /notebooks/sierraleone_eda.ipynb
+
 
 
 
