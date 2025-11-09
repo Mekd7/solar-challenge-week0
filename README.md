@@ -13,7 +13,7 @@ It includes:
 Follow the steps below to set up this project locally.
 
 ### 1. Clone the Repository
-    git clone https://github.com/<your-username>/solar-challenge-week0.git
+    git clone https://github.com/Mekd7/solar-challenge-week0.git
     cd solar-challenge-week0
 
 ### 2. Create a Virtual Environment
@@ -26,6 +26,7 @@ Follow the steps below to set up this project locally.
 ### 4. Install Dependencies
 
     pip install -r requirements.txt
+
 
 
 
