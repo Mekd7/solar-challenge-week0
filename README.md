@@ -27,7 +27,7 @@ Follow the steps below to set up this project locally.
 
     pip install -r requirements.txt
 
-# 🔍 EDA: Sierra Leone Solar Data
+# 🔍 Task 2: EDA: Sierra Leone Solar Data
 
 This project includes exploratory data analysis of solar energy and environmental variables in Sierra Leone.
 
@@ -57,8 +57,18 @@ The goal of the EDA is to:
 The full analysis is available in:
      /notebooks/sierraleone_eda.ipynb
 
+# 🌍 Task 3: Cross-Country Comparison
 
+## ⚙️ Setup and Execution
+    1. Dependencies: Ensure pandas, numpy, matplotlib, seaborn, and scipy are installed.
+    2. Execution: Run all cells in the Jupyter Notebook: notebooks/compare_countries.ipynb.
+    
+The notebook fulfills all requirements by generating the following outputs:
 
-
-
+## ✅ Key Deliverables
+      - Summary Table: Mean, Median, and Standard Deviation for GHI, DNI, and DHI (Printed/Saved in data/).
+      - Boxplots: Side-by-side plots for GHI, DNI, and DHI comparing the three countries (Saved in figures/).
+      - Statistical Testing: One-way ANOVA and Kruskal-Wallis P-values on GHI (Printed in the notebook).
+      - Ranking Chart: Bar chart ranking countries by average GHI (Saved in figures/).
+      - Key Observations: A three-bullet point summary of findings (Markdown cell).
 
